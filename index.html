@@ -5,33 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>All About Me!</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <h2>My name is Andy Weiss</h2>
-    <img id="profile-pic" src="me.jpg" alt="me"/>
-    <p>
-      I teach Web Development at
-      <a href="https://www.wyncode.co" target="_blank">
-        Wyncode Academy
-      </a>
-    </p>
-    <div>
-      <p>Some of my favorite programming languages are</p>
+    <nav>
       <ul>
-        <li>
-          <h3>Ruby</h3>
-          <img src="ruby.jpg" alt="ruby"/>
-        </li>
-        <li>
-          <h3>JavaScript</h3>
-          <img src="js.jpg" alt="js"/>
-        </li>
-        <li>
-          <h3>Python</h3>
-          <img src="python.jpg" alt="python"/>
-        </li>
+        <li><a href="index.html" class="current-page">Home</a></li>
+        <li><a href="contact.html">Contact Me!</a></li>
       </ul>
-    </div>
+    </nav>
+    <main>
+      <h1>Hello, World!</h1>
+      <h2>My name is Andy Weiss</h2>
+      <img id="profile-pic" src="me.jpg" alt="me"/>
+      <p>
+        I teach Web Development at
+        <a href="https://www.wyncode.co" target="_blank">
+          Wyncode Academy
+        </a>
+      </p>
+      <div>
+        <p>Some of my favorite programming languages are</p>
+        <ul id="language-list">
+          <li>
+            <h3>Ruby</h3>
+            <img src="ruby.jpg" alt="ruby"/>
+          </li>
+          <li>
+            <h3>JavaScript</h3>
+            <img src="js.jpg" alt="js"/>
+          </li>
+          <li>
+            <h3>Python</h3>
+            <img src="python.jpg" alt="python"/>
+          </li>
+        </ul>
+      </div>
+    </main>
   </body>
 </html>
